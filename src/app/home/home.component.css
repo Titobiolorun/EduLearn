@@ -1,0 +1,34 @@
+.home img {
+    width: 100%;
+    height: 650px;
+    object-fit: center;
+    object-position: cover;
+}
+
+.homeContent {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    /* transform: translate(-30%, -70%); */
+}
+
+.homeContent h1 {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.homeContent a {
+    margin-top: 10px;
+}
+
+/* @media screen and (max-width: 600px) {
+    .home img {
+        height: 700px;
+    }
+
+    .homeContent{
+        top: 35%;
+        left: 40%;
+        transform: translate(-30%, -70%);
+    }
+} */

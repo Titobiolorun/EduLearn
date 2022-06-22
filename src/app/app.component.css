@@ -1,0 +1,30 @@
+.navbar
+{
+    background-color: #000000;
+    padding: 8px 5px;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #ffffff;
+    font-size: 18px;
+}
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:600px) {
+    .navbar
+{
+    background-color: #000000;
+}
+.navbar-dark .navbar-nav .nav-link .navbar-right
+{
+    color: #ffffff;
+    font-size: 18px;
+}
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    text-decoration: underline;
+}
+}
